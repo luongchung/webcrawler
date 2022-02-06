@@ -6,7 +6,7 @@ app.set("views","./views")
 var server =require("http").Server(app);
 
 const fs = require('fs');
-var port = process.env.port || 5000;
+var port = process.env.PORT || 5000;
 server.listen(port);
 app.get("/",function (req,res) {
     res.render("trangchu");
