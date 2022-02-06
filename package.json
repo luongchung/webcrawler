@@ -9,10 +9,22 @@
   "author": "luongchung",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
     "deasync": "^0.1.21",
+    "deep-email-validator": "^0.1.18",
+    "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
+    "email-check": "^1.1.0",
+    "email-deep-validator": "^3.3.0",
+    "email-exists": "^0.2.1",
+    "email-verify": "^0.2.1",
     "express": "^4.17.1",
     "firebase-admin": "^9.10.0",
-    "request": "^2.88.2"
+    "is-email": "^1.0.1",
+    "is-valid-email": "0.0.5",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "zb-email-verifier": "^0.6.5"
   }
 }
